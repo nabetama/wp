@@ -1,4 +1,4 @@
-# go-word-power
+# wp
 
 Increase one's word power.
 
@@ -12,5 +12,5 @@ Go (often referred to as golang) is a free and open source programming language 
 The language was announced in November 2009; it is used in some of Google's production systems, as well as by other firms. Two major implementations exist: Google's Go compiler, "gc", is developed as open source software and targets various platforms including Linux, OS X, Windows, various BSD and Unix versions, and since 2015 also mobile devices, including smartphones. A second compiler, gccgo, is a GCC frontend. The "gc" toolchain is self-hosting since version 1.5.
 
 EOS
-$ go-word-power some-sentenece
+$ wp search -i -f some-sentence -w open
 ```
