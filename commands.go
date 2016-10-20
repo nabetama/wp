@@ -2,7 +2,6 @@ package main
 
 import (
 	"github.com/codegangsta/cli"
-	"fmt"
 )
 
 var Commands = []cli.Command{
@@ -25,6 +24,6 @@ var searchFlags = []cli.Flag{
 
 func doSearch(c *cli.Context) error {
 	isIgnore := c.Args().Get(0)
-	
+
 	return nil
 }
